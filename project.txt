@@ -1,0 +1,48 @@
+<div class="projects" id="projects">
+    <h2 class="section-heading">Projects</h2>
+    <div class="container">
+      <div class="project">
+        <div class="proj">
+          <img src="images/leon.png" alt="">
+          <!-- <iframe src="https://amr273.github.io/leon-template-_One/"></iframe> -->
+        </div>
+        <div class="text">
+          <h3>leon Project</h3>
+          <a href="https://amr273.github.io/leon-template-_One/" target="_blank">visit Website</a>
+        </div>
+      </div>
+      <div class="project">
+        <div class="text">
+          <h3>Kasper Project</h3>
+          <a href="https://amr273.github.io/Kasper-Templete-Two/" target="_blank">visit Website</a>
+        </div>
+        <div class="proj">
+          <!-- <iframe src="https://amr273.github.io/Kasper-Templete-Two/"></iframe> -->
+          <img src="images/kasper.png" alt="">
+        </div>
+      </div>
+      <div class="project">
+        <div class="proj">
+          <!-- <iframe src="https://amr273.github.io/Amr-Template-Three/"></iframe> -->
+          <img src="images/Amr.png" alt="">
+        </div>
+        <div class="text">
+          <h3>Ahmed Project</h3>
+          <a href="https://amr273.github.io/Amr-Template-Three/" target="_blank">visit Website</a>
+        </div>
+      </div>
+      <div class="project">
+        <div class="text">
+          <h3>Dashboard</h3>
+          <a href="https://amr273.github.io/Dashboard/" target="_blank">visit Website</a>
+        </div>
+        <div class="proj">
+          <!-- <iframe src="https://amr273.github.io/Dashboard/"></iframe> -->
+          <img src="images/dashboard.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="more-projects">
+      <a href="projects.html" target="_blank">MORE</a>
+    </div>
+  </div>
