@@ -60,7 +60,7 @@ if (projectContainer) {
       <div class="proj">
         <img src="${project.image}" alt="${escapeHtml(project.title)}">
       </div>
-      <div class="text">
+      <div class="text" style="margin-left:60px">
         <h3>${escapeHtml(project.title)}</h3>
         <p>${escapeHtml(project.description || "No description added yet.")}</p>
         <a href="${project.url}" target="_blank" rel="noreferrer">visit Website</a>

@@ -33,6 +33,7 @@ const projectForm = document.getElementById("projectForm");
 const projectIdInput = document.getElementById("projectId");
 const projectList = document.getElementById("projectList");
 const logoutBtn = document.getElementById("logoutBtn");
+const changePasswordBtn = document.getElementById("changePasswordBtn");
 const cancelEditBtn = document.getElementById("cancelEdit");
 const imageInput = document.getElementById("image");
 const imageUploadInput = document.getElementById("imageUpload");
@@ -187,6 +188,12 @@ logoutBtn.addEventListener("click", () => {
   localStorage.removeItem(AUTH_KEY);
   window.location.href = "index.html";
 });
+
+if (changePasswordBtn) {
+  changePasswordBtn.addEventListener("click", () => {
+    window.location.href = "change-password.html";
+  });
+}
 
 cancelEditBtn.addEventListener("click", resetForm);
 renderProjects();

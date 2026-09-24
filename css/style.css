@@ -417,10 +417,13 @@ header .container .links .contact a {
     width: 300px;
     text-align: center;
   }
-
+  
   .landing .avatar {
     height: 300px;
     margin-bottom: 100px;
+  }
+  .scroll {
+    display: none;
   }
 }
 
@@ -629,14 +632,14 @@ header .container .links .contact a {
 
 @media (max-width:991px) {
   .projects .project {
-    flex-direction: column-reverse;
+    flex-direction: column;
     background-color: #141c2a;
     padding-bottom: 30px;
   }
 
-  .projects .project:nth-child(odd) {
+  /* .projects .project:nth-child(odd) {
     flex-direction: column;
-  }
+  } */
 
   .projects .project .proj {
     width: 100%;
